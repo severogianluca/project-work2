@@ -20,7 +20,7 @@ React - Libreria UI principale
 React Router - Navigazione SPA
 Bootstrap - Framework CSS e componenti
 Context API - Gestione stato globale
-CSS3 Animations - Animazioni custom e SVG
+
 
 Backend
 
@@ -28,13 +28,6 @@ Node.js - Runtime JavaScript
 Express.js - Framework web
 MySQL - Database relazionale
 Nodemailer - Sistema email
-MySQL2 - Driver database
-
-## 🚀 Quick Start
-Installazione
-bash# Clone del repository
-git clone https://github.com/your-username/manga-ecommerce.git
-cd manga-ecommerce
 
 ### Installazione Backend
 cd backend
