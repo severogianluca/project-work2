@@ -1,0 +1,104 @@
+/* animeBackground.css */
+
+.anime-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+   z-index: -1;
+}
+
+.anime-background__sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, #93C5FD, #FECACA, #FED7AA);
+}
+
+.anime-background__clouds {
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  filter: blur(4px);
+}
+
+.anime-background__cloud-1 {
+  top: 2.5rem;
+  left: 2.5rem;
+  width: 8rem;
+  height: 4rem;
+  opacity: 0.7;
+}
+
+.anime-background__cloud-2 {
+  top: 5rem;
+  right: 5rem;
+  width: 7rem;
+  height: 3rem;
+  opacity: 0.6;
+}
+
+.anime-background__cloud-3 {
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6rem;
+  height: 2.5rem;
+  opacity: 0.65;
+}
+
+.anime-background__petal {
+  position: absolute;
+}
+
+.anime-background__petal svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Animazioni dinamiche per i petali */
+@keyframes petal-fall-0 { to { transform: translateY(110vh) translateX(-75px) rotate(540deg) scale(0.35); opacity: 0; } }
+@keyframes petal-fall-1 { to { transform: translateY(110vh) translateX(90px) rotate(540deg) scale(0.42); opacity: 0; } }
+@keyframes petal-fall-2 { to { transform: translateY(110vh) translateX(-150px) rotate(540deg) scale(0.28); opacity: 0; } }
+@keyframes petal-fall-3 { to { transform: translateY(110vh) translateX(60px) rotate(540deg) scale(0.49); opacity: 0; } }
+@keyframes petal-fall-4 { to { transform: translateY(110vh) translateX(-45px) rotate(540deg) scale(0.37); opacity: 0; } }
+@keyframes petal-fall-5 { to { transform: translateY(110vh) translateX(120px) rotate(540deg) scale(0.44); opacity: 0; } }
+@keyframes petal-fall-6 { to { transform: translateY(110vh) translateX(-90px) rotate(540deg) scale(0.31); opacity: 0; } }
+@keyframes petal-fall-7 { to { transform: translateY(110vh) translateX(75px) rotate(540deg) scale(0.46); opacity: 0; } }
+@keyframes petal-fall-8 { to { transform: translateY(110vh) translateX(-120px) rotate(540deg) scale(0.33); opacity: 0; } }
+@keyframes petal-fall-9 { to { transform: translateY(110vh) translateX(105px) rotate(540deg) scale(0.41); opacity: 0; } }
+@keyframes petal-fall-10 { to { transform: translateY(110vh) translateX(-60px) rotate(540deg) scale(0.38); opacity: 0; } }
+@keyframes petal-fall-11 { to { transform: translateY(110vh) translateX(135px) rotate(540deg) scale(0.45); opacity: 0; } }
+@keyframes petal-fall-12 { to { transform: translateY(110vh) translateX(-105px) rotate(540deg) scale(0.29); opacity: 0; } }
+@keyframes petal-fall-13 { to { transform: translateY(110vh) translateX(90px) rotate(540deg) scale(0.47); opacity: 0; } }
+@keyframes petal-fall-14 { to { transform: translateY(110vh) translateX(-75px) rotate(540deg) scale(0.34); opacity: 0; } }
+@keyframes petal-fall-15 { to { transform: translateY(110vh) translateX(150px) rotate(540deg) scale(0.43); opacity: 0; } }
+@keyframes petal-fall-16 { to { transform: translateY(110vh) translateX(-135px) rotate(540deg) scale(0.32); opacity: 0; } }
+@keyframes petal-fall-17 { to { transform: translateY(110vh) translateX(60px) rotate(540deg) scale(0.48); opacity: 0; } }
+@keyframes petal-fall-18 { to { transform: translateY(110vh) translateX(-90px) rotate(540deg) scale(0.36); opacity: 0; } }
+@keyframes petal-fall-19 { to { transform: translateY(110vh) translateX(120px) rotate(540deg) scale(0.40); opacity: 0; } }
+@keyframes petal-fall-20 { to { transform: translateY(110vh) translateX(-45px) rotate(540deg) scale(0.39); opacity: 0; } }
+@keyframes petal-fall-21 { to { transform: translateY(110vh) translateX(105px) rotate(540deg) scale(0.44); opacity: 0; } }
+@keyframes petal-fall-22 { to { transform: translateY(110vh) translateX(-120px) rotate(540deg) scale(0.30); opacity: 0; } }
+@keyframes petal-fall-23 { to { transform: translateY(110vh) translateX(75px) rotate(540deg) scale(0.47); opacity: 0; } }
+@keyframes petal-fall-24 { to { transform: translateY(110vh) translateX(-60px) rotate(540deg) scale(0.33); opacity: 0; } }
+@keyframes petal-fall-25 { to { transform: translateY(110vh) translateX(135px) rotate(540deg) scale(0.46); opacity: 0; } }
+@keyframes petal-fall-26 { to { transform: translateY(110vh) translateX(-105px) rotate(540deg) scale(0.35); opacity: 0; } }
+@keyframes petal-fall-27 { to { transform: translateY(110vh) translateX(90px) rotate(540deg) scale(0.42); opacity: 0; } }
+@keyframes petal-fall-28 { to { transform: translateY(110vh) translateX(-75px) rotate(540deg) scale(0.37); opacity: 0; } }
+@keyframes petal-fall-29 { to { transform: translateY(110vh) translateX(150px) rotate(540deg) scale(0.45); opacity: 0; } }
+@keyframes petal-fall-30 { to { transform: translateY(110vh) translateX(-135px) rotate(540deg) scale(0.31); opacity: 0; } }
+@keyframes petal-fall-31 { to { transform: translateY(110vh) translateX(60px) rotate(540deg) scale(0.48); opacity: 0; } }
+@keyframes petal-fall-32 { to { transform: translateY(110vh) translateX(-90px) rotate(540deg) scale(0.34); opacity: 0; } }
+@keyframes petal-fall-33 { to { transform: translateY(110vh) translateX(120px) rotate(540deg) scale(0.43); opacity: 0; } }
+@keyframes petal-fall-34 { to { transform: translateY(110vh) translateX(-45px) rotate(540deg) scale(0.38); opacity: 0; } }
+@keyframes petal-fall-35 { to { transform: translateY(110vh) translateX(105px) rotate(540deg) scale(0.41); opacity: 0; } }
+@keyframes petal-fall-36 { to { transform: translateY(110vh) translateX(-120px) rotate(540deg) scale(0.32); opacity: 0; } }
+@keyframes petal-fall-37 { to { transform: translateY(110vh) translateX(75px) rotate(540deg) scale(0.46); opacity: 0; } }
+@keyframes petal-fall-38 { to { transform: translateY(110vh) translateX(-60px) rotate(540deg) scale(0.36); opacity: 0; } }
+@keyframes petal-fall-39 { to { transform: translateY(110vh) translateX(135px) rotate(540deg) scale(0.44); opacity: 0; } }
