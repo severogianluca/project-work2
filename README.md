@@ -13,7 +13,7 @@ Piattaforma e-commerce full-stack dedicata alla vendita di manga, caratterizzata
 📱 Design Responsive: Ottimizzato per tutti i dispositivi
 ❤️ Wishlist: Sistema di preferiti integrato
 
-### 🛠️ Tecnologie Utilizzate
+## 🛠️ Tecnologie Utilizzate
 Frontend
 
 React - Libreria UI principale
